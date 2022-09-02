@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">Control the car movement with Start driving and Stop driving buttons</div>
+    <hr>
+    <div class="car-container">
+        <div>
+            <img src="images/carimg.jpg" alt="car" class="car" id="move-car">
+        </div>
+        <button onclick="document.getElementById('move-car').src='images/car.gif'" class="start">Start driving</button>
+        <button onclick="document.getElementById('move-car').src='images/carimg.jpg'" class="stop">Stop driving</button>
+    </div>
+</body>
+</html>
